@@ -12,12 +12,12 @@
     <!-- Bootstrap Link -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <!-- Font Awesomr Link -->
+    <!-- Font Awesome Link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 
 
-<body class="container">
+<body class="container bg-body-tertiary">
 
     <!-- Back To Top Button ----------------->
     <div id="home" class="fixed-bottom text-end">
@@ -28,7 +28,7 @@
 
 
     <!-- Navbar------------------------------>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary border-bottom">
         <div class="container-fluid">
             <a class="navbar-brand fs-1 branding" href="#">Ajoy Karmokar</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -68,11 +68,12 @@
             <div class="col-md-5 text-center pt-5 ">
                 <p class="fs-5 text-secondary fw-bold">Hello, I'm</p>
                 <h1 class="fs-1 fw-bold">Ajoy Karmokar</h1>
-                <p class="fs-4 text-secondary fw-bold">IT Service Provider</p>
+                <!-- <p class="fs-4 text-secondary fw-bold">IT Service Provider</p> -->
+                <p class="fs-4 text-secondary fw-bold"><span class="autotype"></span></p>
                 <button class="btn btn-light border-secondary rounded-5 px-4 py-2 m-3 fw-bold"
                     onclick="window.open('./utility/Ajoy Karmokar CV.pdf')">Download CV</button>
                 <button class="btn btn-secondary border-light rounded-5 px-4 py-2 fw-bold"
-                    onclick="location.href='https://www.fiverr.com/'">Hire ME</button>
+                    onclick="location.href='https://www.fiverr.com/k_ajoy'">Hire ME</button>
                 <!-- <div>
                     <a href="" class="text-decoration-none text-secondary fs-3 m-3">
                         <i class="fa-brands fa-square-github"></i>
@@ -326,6 +327,10 @@
                         class="text-decoration-none text-secondary fs-1 m-4">
                         <i class="fa-brands fa-upwork"></i>
                     </a>
+                    <a target="_blank" href="https://www.youtube.com/"
+                        class="text-decoration-none text-secondary fs-1 m-4">
+                        <i class="fa-brands fa-square-youtube"></i>
+                    </a>
                 </div>
             </div>
 
@@ -338,7 +343,7 @@
     <div class="card text-center border-0">
         <div class="card-body">
             <p>This Site Designed By <strong>Ajoy Karmokar</strong>.</p>
-            <p>Copyright <strong>© 2023 Ajoy Karmokar.</strong> All Rights Reserved.</p>
+            <p>Copyright <strong>© 2023-2024 Ajoy Karmokar.</strong> All Rights Reserved.</p>
         </div>
     </div>
 
@@ -361,6 +366,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
+    <!-- For Auto Type Animation -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
